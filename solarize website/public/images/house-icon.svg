@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="70px" height="70px" viewbox="0 0 70 70" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.3019608 0 0 0 0 0.46666667 0 0 0 0 0.003921569 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L70 0L70 70L0 70L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Plus-icon-Copy" filter="url(#filter_1)">
+    <path d="M0 0L70 0L70 70L0 70L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M32.0833 0L0 28.8761L8.75 28.8761L8.75 55.1261L29.1667 55.1261L29.1667 37.6261L35 37.6261L35 55.1261L55.4167 55.1261L55.4167 28.8761L64.1667 28.8761L32.0833 0L32.0833 0ZM32.0833 7.84994L49.5833 23.6011L49.5833 25.9595L49.5833 49.2928L40.8333 49.2928L40.8333 31.7928L23.3333 31.7928L23.3333 49.2928L14.5833 49.2928L14.5833 23.6011L32.0833 7.84994L32.0833 7.84994Z" transform="translate(2.916687 6.1238403)" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

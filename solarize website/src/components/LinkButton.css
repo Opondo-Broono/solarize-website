@@ -1,0 +1,15 @@
+.linkButton {
+    color: #000;
+    background-color: #fbc02d;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    letter-spacing: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .linkButton {
+        font-size: 1.3em;
+    }
+}

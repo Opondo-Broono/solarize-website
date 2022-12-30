@@ -1,0 +1,23 @@
+.about {
+    padding: 1em;
+}
+
+.about p {
+    margin-top: 1em;
+}
+
+.about a {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    .about {
+        padding: 2em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+        padding: 2em 4em;
+    }
+}

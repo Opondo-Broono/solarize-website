@@ -1,0 +1,45 @@
+#featureContent {
+    margin-top: 1em;
+    padding: 1em;
+}
+
+#title {
+    font-size: 0.7em;
+    letter-spacing: 0.5em;
+}
+
+#title span {
+    font-size: 1.5em;
+}
+
+/* draw a line above #title */
+#title::before {
+    content: "";
+    width: 4em;
+    border: 1px solid #1b2c00;
+    display: block;
+}
+
+.allFeatures {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    #featureContent {
+        padding: 2em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #featureContent {
+        padding: 2em 4em;
+    }
+
+    .allFeatures {
+        flex-direction: row;
+        gap: 2em;
+    }
+}

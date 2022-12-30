@@ -1,0 +1,80 @@
+main {
+    position: relative;
+}
+
+.col-text {
+    padding: 1em;
+}
+
+/* set background image */
+.col-text::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -2;
+    opacity: 0.5;
+}
+
+/* set greenish overlay */
+.col-text::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    background-color: rgba(139, 195, 74, 0.3);
+}
+
+.col-text p {
+    margin-top: 1em;
+}
+
+.col-text a {
+    margin-top: 2em;
+}
+
+@media only screen and (min-height: 430px) {
+    .col-text {
+        height: 75vh;
+    }
+
+    .col-text::before {
+        background-position: 0% 0%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .col-text {
+        padding: 3em 2em 2em 2em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .col-text {
+        padding: 2em 4em;
+    }
+
+    .col-text a {
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .col-text {
+        padding: 4em;
+    }
+}

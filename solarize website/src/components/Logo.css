@@ -1,0 +1,10 @@
+.logo a {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* @media only screen and (min-width: 600px) {
+    .logo a {
+        font-size: 1.3em;
+    }
+} */

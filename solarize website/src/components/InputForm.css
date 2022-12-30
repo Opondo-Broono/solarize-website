@@ -1,0 +1,73 @@
+.inputForm {
+    padding: 1em;
+}
+
+.inputForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.inputForm label {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.inputForm input[type=text],
+.inputForm input[type=email],
+.inputForm textarea {
+    padding: 5px;
+    border: 1px solid #4D7701;
+    border-radius: 8px;
+}
+
+.inputForm input[type=text],
+.inputForm input[type=email] {
+    height: 35px;
+}
+
+.inputForm input[type=text]:focus,
+.inputForm input[type=email]:focus,
+.inputForm textarea:focus {
+    border: 2px solid #fbc02d;
+    outline: none;
+}
+
+.inputForm button {
+    background-color: #fbc02d;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-top: 1em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+@media only screen and (min-width: 600px) {
+    .inputForm {
+        padding: 2em;
+    }
+
+    .inputForm input[type=text],
+    .inputForm input[type=email] {
+        height: 45px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .inputForm {
+        padding: 2em 4em;
+    }
+
+    .inputForm input[type=text],
+    .inputForm input[type=email] {
+        height: 50px;
+    }
+}

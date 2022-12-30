@@ -1,0 +1,22 @@
+.feature {
+    background-color: #f4f0f4;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.feature img {
+    width: 50px;
+}
+
+.feature h2 {
+    margin-top: 0.5em;
+}
+
+.feature p {
+    margin-top: 0.5em;
+}
+
+.feature a {
+    margin-top: 1em;
+    text-decoration: underline;
+}
